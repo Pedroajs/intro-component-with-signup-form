@@ -1,0 +1,26 @@
+@media(max-width:720px){
+    body{
+        background-image: url("./images/bg-intro-mobile.png");
+        background-repeat: no-repeat;
+
+    }
+    .container{
+        
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .article-header{
+        width: 100%;
+        text-align: center;
+    }
+    .article-p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-container{
+        margin-top: 5rem;
+    }
+}

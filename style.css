@@ -23,7 +23,7 @@ body{
 }
 
 .article-header{
-    font-size: 50px;
+    font-size: 2rem;
     width: 70%;
     color:white;
     margin-bottom: 3%;
@@ -55,7 +55,7 @@ body{
 .form{
     display: flex;
     flex-direction: column;
-    padding: 10%;
+    padding: 7%;
     background-color: white;
 
     ;
@@ -73,7 +73,14 @@ body{
     color: white;
     letter-spacing: 0.5px;
 }
-
+.form-footer{
+    color:  lightgray;
+    font-size: 0.8rem;
+    text-align: center;
+}
+span{
+    color: hsl(0, 100%, 74%) 
+}
 .round-borders{
     border-radius: 5px;
     border: 2px solid lightgray;
