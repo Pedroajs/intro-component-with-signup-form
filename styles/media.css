@@ -1,6 +1,6 @@
 @media(max-width:720px){
     body{
-        background-image: url("./images/bg-intro-mobile.png");
+        background-image: url("../images/bg-intro-mobile.png");
         background-repeat: no-repeat;
 
     }

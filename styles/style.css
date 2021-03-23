@@ -12,7 +12,7 @@ body{
     /* margin: 0 auto; */
     font-size: 16px;
 
-    background-image: url("./images/bg-intro-desktop.png");
+    background-image: url("../images/bg-intro-desktop.png");
     background-repeat: no-repeat;
     background-color: hsl(0, 100%, 74%);
 
@@ -84,4 +84,21 @@ span{
 .round-borders{
     border-radius: 5px;
     border: 2px solid lightgray;
+}
+
+.error{
+    text-align: end;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+    display: none;
+}
+
+.input-error{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-image: url("../images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 90%;
 }

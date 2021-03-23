@@ -35,14 +35,17 @@
         </p>
       </div>
    
-      <form class="form" action="">
-       <input class="form-input round-borders" type="text" placeholder="First Name ">
-       <input class="form-input round-borders" type="text" placeholder="Last Name ">
-       <input class="form-input round-borders" type="email" placeholder="Email Address">
-       <input class="form-input round-borders" type="text" placeholder="Password"> 
+      <form id="form" class="form" action="">
+       <input class="form-input round-borders input-name " type="text" placeholder="First Name ">
+       <span class="error">First name cannot be empty</span>
+       <input class="form-input round-borders input-lastName " type="text" placeholder="Last Name " >
+       <span class="error">Last name cannot be empty</span>
+       <input class="form-input round-borders input-email " type="email" placeholder="Email Address" >
+       <span class="error">Looks like this is not an email</span>
+       <input class="form-input round-borders input-password " type="password" placeholder="Password" > 
+       <span class="error">Password cannot be empty</span>
 
-
-       <input class="form-btn round-borders" type="submit" value="Claim your free trial"> </input type="button">
+       <input class="form-btn round-borders" type="submit" value="Claim your free trial"  onclick="validateFields()"> </input type="button">
         <footer class="form-footer">
           <p>
            
@@ -61,5 +64,7 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+
+  <script src="/main.js"></script>
 </body>
 </html>
