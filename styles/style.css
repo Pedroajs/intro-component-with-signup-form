@@ -27,10 +27,13 @@ body{
     width: 70%;
     color:white;
     margin-bottom: 3%;
+
+    filter: drop-shadow(0 0 0.5rem black); 
 }
 .article-p{
     width: 50%;
     color: white;
+    filter: drop-shadow(0 0 0.5rem black);
 }
 .container{
     height: 100%;
